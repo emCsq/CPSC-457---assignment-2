@@ -48,5 +48,5 @@ asmlinkage long sys_ptag(pid_t pid, char * inTag, int method){
 }
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Emily (Yin-Li) Chow");
+MODULE_AUTHOR("Emily Chow");
 MODULE_DESCRIPTION("Problem 3 part a-c ~ attaches a tag to a user-specified PID and (ideally) removes a tag if requested");
