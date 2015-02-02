@@ -1,0 +1,5 @@
+config PTAG
+	bool "A simple system call"
+	default y
+	---help---
+	Prints a message when called from user land
